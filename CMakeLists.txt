@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(module-02-c-code-rhinoed)
+project(c-module-02-rhinoed)
 
 # Set C++ standard for all subprojects
 set(CMAKE_CXX_STANDARD 17)
