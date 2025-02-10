@@ -14,6 +14,7 @@ The recursive version call with two arguments
 #include <iostream>
 #include <string>
 #include  <climits>
+#include <limits>
 
 using namespace std;
 // getAnIntFromTheUser from funWithFunctions
@@ -102,7 +103,7 @@ int main() {
                 cout << "Goodbye" << endl;
                 return 0;
             default:
-                cout << option + " is not a valid options";
+                cout << to_string(option) << " is not a valid options";
                 break;
         }
     }
