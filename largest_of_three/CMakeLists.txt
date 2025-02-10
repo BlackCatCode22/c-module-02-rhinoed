@@ -3,4 +3,5 @@ project(largest_of_three)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(largest_of_three largestOfThree.cpp)
+add_executable(largest_of_three largestOfThree.cpp
+        largestOfThree.cpp)
