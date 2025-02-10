@@ -103,7 +103,11 @@ int main() {
                 cout << "Goodbye" << endl;
                 return 0;
             default:
-                cout << to_string(option) << " is not a valid options";
+                option = 0;
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                cout << "Invalid option entered try again or exit(4)" << endl;
+
                 break;
         }
     }
